@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium Grid Execution]">
+  <test name="Selenium Grid(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="com.vmetry.selenium.grid.SeleniumGrid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Launch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.vmetry.selenium.grid.SeleniumGrid -->
+    </classes>
+  </test> <!-- Selenium Grid(failed) -->
+</suite> <!-- Failed suite [Selenium Grid Execution] -->
